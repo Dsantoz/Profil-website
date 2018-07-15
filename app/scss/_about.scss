@@ -1,0 +1,113 @@
+#about {
+    height: 678px;
+    padding-top: 50px;
+
+    .container-fluid {
+        background: #38383E;
+        height: 100%;
+        width: 98%;
+
+        header {
+            height: 100px;
+            padding: 25px;
+
+            h1 {
+                color: $w;
+                font-weight: bold;
+                text-transform: uppercase;
+            }
+        }
+
+        .row {
+            height: 86%;
+
+            .col-sm-7 {
+                height: 100%;
+
+                p {
+                    color: $w;
+                    padding-left: 20px;
+
+                    span {
+                        font-weight: bold;
+                    }
+                }
+
+                .data {
+                   color: $w;
+
+                   li {
+                        list-style: none;
+                        padding: 15px 0;
+
+                        span {
+                            font-weight: 700;
+                            font-weight: bold;
+                        }
+
+                        .btn {
+                            text-transform: uppercase;
+                        }
+                   }
+                }
+            }
+
+            .col-sm-5 {
+                height: 100%;
+
+                img {
+                    border: 6px solid #2C2C32;
+                    box-shadow: 20px 20px;
+                    height: 450px;
+                    width: 400px;
+                    object-fit: cover;
+
+                    &:hover {
+                        border: 6px solid $primary;
+                        box-shadow: 20px 20px $primary;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 991.98px) { 
+    #about {
+        height: 620px;
+
+        .container-fluid {
+
+            .row {
+
+                .col-sm-7 {
+                    
+                    p {
+                        font-size: 14px;
+                    }
+
+                    .data {
+
+                        li {
+                            padding: 12px 0;
+                        }
+                    }
+                }
+
+                .col-sm-5 {
+
+                    img {
+                        height: 450px;
+                        width: 90%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 991.98px) { 
+    #about {
+        height: 710px;
+    }
+}

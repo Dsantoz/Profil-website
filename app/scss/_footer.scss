@@ -1,0 +1,64 @@
+#footer {
+    height: 690px;
+    margin-top: 80px;
+
+
+    .container-fluid {
+        padding-top: 80px;
+        height: 100%;
+        width: 98%;
+
+        .row {
+            background: #2C2C32;
+            height: 20%;
+        }
+
+        header {
+            height: 86px;
+            padding-top: 30px;
+            margin-bottom: 42px;
+
+            h1 {
+                color: $w;
+                font-weight: bold;
+                text-align: center;
+                text-transform: uppercase;
+            }
+        }
+
+        .text {
+            height: 70%;
+
+            .data {
+                height: 100%;
+            
+                form {
+                    background: #38383E;
+                    margin: 4% 2%;
+                    padding: 10%;
+    
+                    .form-group {
+    
+                        .area {
+                            height: 100px;
+                        }
+                    }
+    
+                    button {
+                        margin-left: 35%;
+                    }
+                }
+            }
+
+            .peta {
+                height: 100%;
+
+                .maps {
+                    height:380px;
+                    background: #38383E;
+                    margin: 4% 2%;
+                }
+            }
+        }
+    }
+}

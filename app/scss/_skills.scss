@@ -1,0 +1,134 @@
+#skills {
+    height: 690px;
+    padding-top: 50px;
+
+    .container-fluid {
+        height: 100%;
+        width: 98%;
+
+        header {
+            height: 100px;
+            padding: 25px;
+
+            h1 {
+                color: $w;
+                font-weight: bold;
+                text-transform: uppercase;
+            }
+        }
+
+        .row {
+            height: 80%;
+
+            .col-md-7 {
+                height: 100%;
+                padding: 60px;
+
+                img {
+                    border: 6px solid #38383E;
+                    box-shadow: -20px 20px;
+                    object-fit: cover;
+                    
+                    height: 400px;
+                    width: 600px;
+                    position: relative;
+
+                    &:hover {
+                        border: 6px solid $primary;
+                        box-shadow: -20px 20px $primary;
+                    }
+                }
+
+                a {
+
+                    .fa {
+                        color: $b;
+                        left: 45%;
+                        top: 230px;
+                        position: absolute;
+
+                        &:hover {
+                           color: $primary;
+                        }
+                    }
+                }
+
+                h3 {
+                    color: $b;
+                    text-transform: uppercase;
+                    left: 32%;
+                    top: 310px;
+                    position: absolute;
+                }
+            }
+
+            .col-md-5 {
+                padding-top: 60px;
+
+                p {
+                    color: $w;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 991.98px) { 
+    #skills {
+
+        .container-fluid {
+
+            .row {
+
+                .col-md-7 {
+
+                    a {
+
+                        .fa {
+                          left: 50%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 767.98px) { 
+    #skills {
+        height: 950px;
+
+        .container-fluid {
+
+            .row {
+                height: 100%;
+
+                .col-md-7 {
+                    height: 35%;
+                    padding: 10px 80px;
+
+                    img {
+                        height: 300px;
+                    }
+
+                    a {
+
+                        .fa {
+                          left: 50%;
+                          top: 38%;
+                        }
+                    }
+
+                    h3 {
+                        top: 58%;
+                    }
+                }
+
+                .col-md-5 {
+                    height: 65%;
+                    padding-top: 20px;
+                }
+            }
+        }
+    }
+}

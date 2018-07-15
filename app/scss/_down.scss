@@ -1,0 +1,32 @@
+#down {
+    height: 180px;
+    margin-top: 80px;
+
+
+    .container-fluid {
+        height: 100%;
+        width: 98%;
+
+        header {
+            height: 86px;
+            padding-top: 30px;
+
+            h1 {
+                color: $w;
+                font-weight: bold;
+                text-align: center;
+                text-transform: uppercase;
+            }
+
+        }
+
+        .row {
+            height: 50%;
+
+            .col-12 {
+                height: 100%;
+            }
+        }
+        
+    }
+}

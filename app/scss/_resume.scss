@@ -1,0 +1,178 @@
+#resume {
+    height: 1600px;
+    padding-top: 80px;
+
+    .container-fluid {
+        height: 98%;
+        width: 98%;
+
+        header {
+            margin-bottom: 50px;
+
+            h1 {
+                color: $w;
+                font-weight: bold;
+                text-align: center;
+                text-transform: uppercase;
+            }
+        }
+
+        .row {
+            height: 100%;
+
+            .border-right {
+                height: 100%;
+
+                .row {
+                    height: 12%;
+                    margin-top: 120px;
+
+                    .col-12 {
+                        color: lightgrey;
+                        height: 100%;
+                        margin-bottom: 220px;
+
+                        p {
+                            height: 100%;
+                            margin: 0 7%;
+                            padding: 3% 5%;
+                            text-align: right;
+
+                            b {
+                                font-size: 20px;
+                            }
+
+                            .bold {
+                                color: $primary;
+                            }
+
+                            &:hover {
+                                box-shadow: 7px 7px 10px 5px white;
+                            }
+                        }
+                    }
+                }
+
+                span {
+                    font-size: 35px;
+                    right: -35px;
+                    top: -15px;
+                    position: absolute;
+                    z-index: 1;
+
+                    i {
+                        background: $primary;
+                        border-radius: 100%;
+                        color: $w;
+                    }
+                }
+
+                .ceck1 {
+                    color: $primary;
+                    right: -15px;
+                    top: 100px;
+                    position: absolute;
+                    z-index: 1;
+                }
+
+                .ceck2 {
+                    color: $primary;
+                    right: -15px;
+                    top: 500px;
+                    position: absolute;
+                    z-index: 1;
+                }
+            }
+
+            .border-left {
+                height: 100%;
+
+                h1 {
+                    color: $w;
+                    left: 50px;
+                    position: absolute;
+                }
+
+                .ceck1 {
+                    color: $primary;
+                    left: -15px;
+                    top: 300px;
+                    position: absolute;
+                    z-index: 1;
+                }                         
+                
+                .ceck2 {
+                    color: $primary;
+                    left: -112px;
+                    top: -170px;
+                    position: relative;
+                    z-index: 1;
+                }
+
+
+                .ceck4 {
+                    color: $primary;
+                    left: -112px;
+                    top: -170px;
+                    position: relative;
+                    z-index: 1;
+                }
+
+                .row {            
+                    height: 13%;
+                    margin-top: 320px;
+
+                    .right {
+                        height: 100%;
+
+                        p {
+                            color: lightgrey;
+                            height: 100%;
+                            margin: 0 50px;
+                            padding: 3% 5%;
+                            text-align: left;
+
+                            b {
+                                font-size: 20px;
+                            }
+
+                            .bold {
+                                color: $primary;
+                            }
+
+                            &:hover {
+                                box-shadow: 7px 7px 10px 5px white;
+                            }
+                        }
+                    }
+                    
+                    .col-sm-12 {
+                        height: 100%;
+                        margin: 250px 0;
+        
+                        h1 {
+                            color: $w;
+                            left: 60px;
+                            top: 20px;
+                            position: absolute;
+                        }
+        
+                        span {
+                            font-size: 35px;
+                            left: -30px;
+                            top: 10px;
+                            position: absolute;
+                            z-index: 1;
+        
+                            i {
+                                background: $primary;
+                                border-radius: 100%;
+                                color: $w;
+                            }
+                        }
+                    }
+                }
+            }
+        }        
+    }
+}

@@ -1,0 +1,279 @@
+#mainHeader {
+    height: 91%;
+    margin-bottom: 20px;
+    position: relative;
+    top: -30px;
+
+    .container-fluid {
+
+        .jumbotron {
+            background: #38383E;
+            height: 665px;
+            padding: 10px 30px auto;
+            width: 100%;
+
+            .row {
+                margin-top: 20px;
+
+                .col-sm-4 {
+                    padding-top: 30px;
+
+                    img {
+                        border: 10px solid #2C2C32;
+                        height: auto;
+                        position: relative;
+                        width: 350px;
+                        z-index: 1;
+                    }
+
+                    ul {
+
+                        .one {
+                            border: 1px solid #2C2C32;
+                            border-radius: 100%;
+                            background: #2C2C32;
+                            height: 48px;
+                            width: 43px auto;
+
+                            &:hover {
+                                background: $w;
+                                border: 1px solid $w;
+                            }
+                        }
+
+                        .noll {
+                            width: 25px;
+                        }
+
+                        li {
+
+                            .fa {
+                                color: lightslategray;
+                                font-size: 25px;
+                                margin-top: 3px;
+                            }
+                        }
+                    }
+
+                    
+                    .nav {
+                        margin-top: 20px;
+                    }
+                }
+
+                .colCard {
+                    text-align: center;
+                    padding-top: 110px;
+                    height: auto;
+                    width: auto;
+
+                    .card {
+                        background: #2C2C32;
+                        color: $w;
+                        left: -100px;
+                        position: relative;
+                        width: 80%;
+
+                        .card-body {
+
+                            h1 {
+                                font-size: 35px;
+                                
+                                &:hover {
+                                    color: $primary;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1199.98px) { 
+    #mainHeader {
+
+        .container-fluid {
+
+            .jumbotron {
+
+                .row {
+
+                    .col-sm-4 {
+                        
+                        ul {
+
+                            li {
+                                
+                                a {
+
+                                    .fa {
+                                        font-size: 25px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .colCard {
+
+                        .card {
+                            top: -7px;
+                    
+                            .card-body {
+                                
+                                h1 {
+                                    font-size: 25px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 991.98px) { 
+    #mainHeader {
+
+        .container-fluid {
+
+            .jumbotron {
+
+                .row {
+
+                    .col-sm-4 {
+
+                        ul {
+
+                            li {
+                                
+                                a {
+
+                                    .fa {
+                                        font-size: 20px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .colCard {
+
+                        .card {
+                            top: -20px;
+                    
+                            .card-body {
+                                
+                                h1 {
+                                    font-size: 23px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+ @media (max-width: 767.98px) { 
+    #mainHeader {
+
+        .container-fluid {
+
+            .jumbotron {
+                height: 400px;
+                .row {
+
+                    .col-sm-4 {
+                        
+                        ul {
+
+                            li {
+                                
+                                a {
+
+                                    .fa {
+                                        font-size: 20px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .colCard {
+
+                        .card {
+                            top: -50px;
+                    
+                            h1 {
+                                font-size: 25px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+  }
+
+  @media (max-width: 575.98px) { 
+    #mainHeader {
+
+        .container-fluid {
+
+            .jumbotron {
+                height: 600px;
+
+                .row {
+                    height: 100%;
+
+                    .col-sm-4 {
+                        height: 70%;
+                        padding-left: 25%;
+                        padding-top: 0;
+
+                        img {
+                            height: auto;
+                            width: 280px
+                        }
+                        
+                        ul {
+                            margin-right: 23%;
+
+                            li {
+                                
+                                a {
+
+                                    .fa {
+                                        font-size: 25px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .colCard {
+                        height: 30%;
+                        width: 100%;
+
+                        .card {
+                            top: -100px;
+                            width: 100%;
+                    
+                            .card-body {
+                                
+                                h1 {
+                                    font-size: 25px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
